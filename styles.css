@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */ 
+:root { background-color: rgb(135, 206, 235); } 
+/* ARTICLE PARAGRAPHS */
+article p:first-child { background: black; color: white; } 
+article p:nth-child(2) 
+{ /* normal styling, no changes required */ } 
+article p:last-child { color: red; } 
+/* LIST STYLING */ ul li { width: 50%; padding: 10px; background-color: gray; } 
+/* odd items → white background */ 
+ul li:nth-child(odd) { background-color: white; }
+/* first and last items → font size 22px */ 
+ul li:first-child, ul li:last-child { font-size: 22px; } /* 3rd-to-last item = item #3 → pink background 
+*/ ul li:nth-last-child(3) { background-color: pink; }
